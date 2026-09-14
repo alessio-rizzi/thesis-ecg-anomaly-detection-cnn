@@ -24,8 +24,8 @@ Per ragioni di spazio, i file dei dataset non sono inclusi in questo repository.
 Clona questo repository e reinstalla l'ambiente virtuale utilizzando il file delle dipendenze:
 
 ```bash
-git clone [https://github.com/TUO-USERNAME/NOME-REPO.git](https://github.com/TUO-USERNAME/NOME-REPO.git)
-cd NOME-REPO
+git clone https://github.com/alessio-rizzi/thesis-ecg-anomaly-detection-cnn.git
+cd thesis-ecg-anomaly-detection-cnn
 pip install -r requirements.txt
 
 ## 🚀 Come eseguire il codice
