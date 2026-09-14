@@ -1,0 +1,27 @@
+# 1. AMBIENTE VIRTUALE
+bin/
+lib/
+include/
+etc/
+share/
+pyvenv.cfg
+
+# 2. CARTELLE DA SVUOTARE (MA DA MANTENERE)
+dataset/*
+!dataset/.gitkeep
+
+model/*
+!model/.gitkeep
+
+weights/*
+!weights/.gitkeep
+
+img/confusion_matrix/*
+!img/confusion_matrix/.gitkeep
+
+img/metriche/*
+!img/metriche/.gitkeep
+
+# 3. GENERICI
+.DS_Store
+.ipynb_checkpoints/
