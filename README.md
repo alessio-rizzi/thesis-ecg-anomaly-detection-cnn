@@ -4,9 +4,9 @@ Questo repository contiene il codice sorgente per un progetto di tesi incentrato
 
 ## 🎯 Obiettivi della Tesi
 
-*   **Pre-Training:** Addestramento di una CNN leggera (meno di 100.000 parametri) con 8 layer convoluzionali 1D per classificare i tracciati ECG in due macro-categorie: Normali (NORM) e Anormali (ABNORM). Il segnale viene campionato a 100Hz, normalizzato tramite Z-score e segmentato in finestre sovrapposte da 344 campioni[cite: 3].
+*   **Pre-Training:** Addestramento di una CNN leggera (meno di 100.000 parametri) con 8 layer convoluzionali 1D per classificare i tracciati ECG in due macro-categorie: Normali (NORM) e Anormali (ABNORM). Il segnale viene campionato a 100Hz, normalizzato tramite Z-score e segmentato in finestre sovrapposte da 344 campioni.
 *   **Fine-Tuning & Cross-Validation:** Il modello pre-addestrato viene riadattato per classificare due transizioni posturali specifiche: "Supin" (etichetta 0) e "Stand-up" (etichetta 1). Il processo utilizza una Cross-Validation basata sui pazienti, sbloccando gradualmente i pesi della rete e applicando un decadimento lineare del learning rate.
-*   **Data Augmentation:** Entrambe le fasi applicano tecniche di data augmentation on-the-fly, tra cui l'aggiunta di rumore Gaussiano e il Random Amplitude Scaling[cite: 2, 3].
+*   **Data Augmentation:** Entrambe le fasi applicano tecniche di data augmentation on-the-fly, tra cui l'aggiunta di rumore Gaussiano e il Random Amplitude Scaling.
 
 ## 💾 Download dei Dataset
 
